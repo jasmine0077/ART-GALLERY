@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Freehand&family=Glass+Antiqua&family=Indie+Flower&family=Roboto+Mono:wght@500&family=Rubik+Burned&family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.heading {
+    margin-top: 10vh;
+    height: 35vh;
+    width: 100vw;
+    background-color: rgb(77, 2, 58);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading h1 {
+    color: white;
+    font-size: 6em;
+    letter-spacing: 0.5em;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.art {
+    margin-top: 20px;
+    height: 1000px;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dabba1 {
+    height: 500px;
+    width: 550px;
+    top: 100px;
+    left: 100px;
+    background-image: url(art-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    position: relative;
+}
+
+.dabba2 {
+    height: 400px;
+    width: 460px;
+    background-image: url(art-5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 40px;
+    left: 150px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.dabba3 {
+    height: 450px;
+    width: 350px;
+    background-image: url(art-3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 490px;
+    right: 270px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.dabba4 {
+    height: 300px;
+    width: 500px;
+    background-image: url(art-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 60px;
+    left: 110px;
+    border-radius: 20px;
+    position: relative;
+} 
+
+#id1 {
+    background-image: url(art-7.png);
+}
+
+#id2 {
+    background-image: url(art-4.png);
+}
+
+#id3 {
+    background-image: url(art-9.png);
+}
+
+#id4 {
+    background-image: url(art-10.png);
+}
+
+@media (max-width: 450px) {
+    .heading {
+        margin-top: 10vh;
+        height: 20vh;
+        width: 100vw;
+    }
+    .heading h1 {
+        font-size: 3em;
+        letter-spacing: 0.3em;
+    }
+    .art {
+        margin-top: 15px;
+        height: 1000px;
+        width: 100vw;
+    }
+    .dabba1 {
+        height: 300px;
+        width: 300px;
+        top: 40px;
+        left: 60px;
+    }
+    .dabba2 {
+        height: 200px;
+        width: 200px;
+        top: 30px;
+        left: 15px;
+    }
+    .dabba3 {
+        height: 200px;
+        width: 200px;
+        top: 30px;
+        left: 40px;
+    }
+    .dabba4 {
+        height: 250px;
+        width: 370px;
+        top: 10px;
+        left: 30px;
+    }     
+}
